@@ -9,7 +9,7 @@ string binary_convert(int n)
 {
     string binary = "";
     
-    while (n / 2 != 0)
+    while (n > 0)
     {
         binary += to_string(n % 2);
         n /= 2;
